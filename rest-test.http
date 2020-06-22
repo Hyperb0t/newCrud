@@ -1,0 +1,26 @@
+POST http://localhost:8080/rest/users/add
+Content-Type: application/json;
+
+{
+  "email": "and@another.one",
+  "password": "654321",
+  "country": "RU",
+  "gender": "f",
+  "birthday": 1583096400000
+}
+
+
+###
+GET http://localhost:8080/rest/users/id/2
+Accept: application/json
+###
+
+GET http://localhost:8080/rest/users/all
+Accept: application/json
+###
+
+DELETE http://localhost:8080/rest/users/delete/1
+Accept: application/json
+
+###
+
